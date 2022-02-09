@@ -1,0 +1,14 @@
+App\Entity\Cliente:
+  attributes:
+    id:
+      groups: ['cliente', 'pedido']
+    nombre:
+      groups: [ 'cliente' ]
+    apellidos:
+      groups: [ 'cliente' ]
+    telefono:
+      groups: [ 'cliente' ]
+    direcciones:
+      groups: [ 'direcciones_cliente' ]
+    pedidos:
+      groups: [ 'pedidos_cliente' ]

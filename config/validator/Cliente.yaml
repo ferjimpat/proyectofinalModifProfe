@@ -1,0 +1,11 @@
+App\Entity\Cliente:
+  properties:
+    nombre:
+      - NotBlank:
+          message: 'Debe indicar un nombre'
+    apellidos:
+      - NotBlank:
+          message: 'Debe indicar sus apellidos'
+    telefono:
+      - NotBlank:
+          message: 'Debe indicar un numero de telefono'

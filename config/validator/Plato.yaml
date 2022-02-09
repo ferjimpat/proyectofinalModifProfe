@@ -1,0 +1,15 @@
+App\Entity\Plato:
+  properties:
+    nombre:
+      - NotBlank:
+          message: 'Debe inidicar un nombre de plato'
+      - Length:
+          max: 100
+          maxMessage: 'El nombre del plato es demasiado largo'
+
+    precio:
+      - NotBlank:
+          message: 'Debe indicar un precio'
+    restaurante:
+      - NotBlank:
+          message: 'Debe indicar un restaurante asociado'

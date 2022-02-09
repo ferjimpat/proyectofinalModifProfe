@@ -1,0 +1,6 @@
+App\Entity\Provincias:
+  attributes:
+    id:
+      groups: ['direcciones_cliente']
+    provincia:
+      groups: ['direcciones_cliente']

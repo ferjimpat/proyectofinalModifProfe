@@ -1,0 +1,10 @@
+App\Entity\Categorias:
+    properties:
+        categoria:
+          - NotBlank:
+              message: 'Debe indicar un nombre de categoria'
+          - Length:
+              min: 2
+              max: 100
+              minMessage: 'El nombre de la categoria debe contener al menos 2 caracteres'
+              maxMessage: 'El nombre de la categoria no puede sobrepasar los 100 caracteres'

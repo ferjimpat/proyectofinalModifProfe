@@ -1,0 +1,8 @@
+App\Entity\CantidadPlatosPedido:
+  attributes:
+    id:
+      groups: [ 'pedidos']
+    cantidad:
+      groups: [ 'pedido' ]
+    plato:
+      groups: [ 'pedido' ]

@@ -1,0 +1,18 @@
+App\Entity\Pedido:
+  attributes:
+    id:
+      groups: ['pedido']
+    total:
+      groups: [ 'pedido' ]
+    fechaEntrega:
+      groups: [ 'pedido' ]
+    cliente:
+      groups: [ 'pedido' ]
+    estado:
+      groups: [ 'pedido']
+    restaurante:
+      groups: [ 'pedido' ]
+    platosYCantidad:
+      groups: ['pedido']
+    direccion:
+      groups: ['pedido']

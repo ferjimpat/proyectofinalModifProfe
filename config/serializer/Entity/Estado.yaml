@@ -1,0 +1,6 @@
+App\Entity\Estado:
+  attributes:
+    id:
+      groups: ['pedido']
+    estado:
+      groups: [ 'pedido' ]

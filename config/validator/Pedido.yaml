@@ -1,0 +1,7 @@
+App\Entity\Pedido:
+  properties:
+    total:
+      - NotBlank:
+          message: 'Debe indicar el total'
+
+

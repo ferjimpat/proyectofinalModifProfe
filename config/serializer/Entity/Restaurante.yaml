@@ -1,0 +1,22 @@
+App\Entity\Restaurante:
+    attributes:
+        id:
+            groups: ['restaurante', 'restaurante_list', 'restaurante_id','restaurante_horarios', 'pedido']
+        nombre:
+            groups: [ 'restaurante_list' , 'restaurante_id', 'pedido' ]
+        valoracionMedia:
+            groups: [ 'restaurante_list' , 'restaurante_id']
+        descripcion:
+            groups: ['restaurante_id']
+        imagenUrl:
+            groups: [ 'restaurante_id' ]
+        horarios:
+            groups: ['restaurante_horarios']
+        categorias:
+            groups: ['categoria_restaurante']
+
+
+
+
+
+

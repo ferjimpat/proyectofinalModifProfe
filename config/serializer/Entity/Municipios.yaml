@@ -1,0 +1,6 @@
+App\Entity\Municipios:
+    attributes:
+      id:
+        groups: ['add_municipio', 'direcciones_cliente']
+      municipio:
+        groups: ['add_municipio', 'direcciones_cliente']

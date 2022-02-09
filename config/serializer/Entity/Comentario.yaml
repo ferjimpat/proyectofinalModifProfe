@@ -1,0 +1,12 @@
+App\Entity\Comentario:
+  attributes:
+    id:
+      groups: ['comentario']
+    nombre:
+      groups: ['comentario']
+    comentario:
+      groups: [ 'comentario' ]
+    puntos:
+      groups: [ 'comentario' ]
+    createdAt:
+      groups: [ 'comentario' ]

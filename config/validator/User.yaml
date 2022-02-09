@@ -1,0 +1,9 @@
+App\Entity\User:
+  properties:
+    email:
+      - NotBlank:
+          message: 'El email no puede estar vacio'
+    password:
+      - NotBlank:
+          message: 'Password no puede estar vacio'
+

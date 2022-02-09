@@ -1,0 +1,15 @@
+App\Entity\Plato:
+  attributes:
+    id:
+      groups: ['plato', 'pedido']
+    nombre:
+      groups: [ 'plato', 'pedido' ]
+    descripcion:
+      groups: [ 'plato' ]
+    imagenUrl:
+      groups: [ 'plato' ]
+    precio:
+      groups: [ 'plato']
+    alergenos:
+      groups: [ 'plato' ]
+

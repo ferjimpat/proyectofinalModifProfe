@@ -1,0 +1,15 @@
+App\Entity\Direcciones:
+  properties:
+    calle:
+      - NotBlank:
+          message: 'Debe inidicar un nombre de calle'
+      - Length:
+          max: 100
+          maxMessage: 'La calle es demasiado larga'
+
+    codPostal:
+      - NotBlank:
+          message: 'Debe indicar un Codigo Postal'
+      - Length:
+          max: 5
+          maxMessage: 'El Codigo Postal es demasiado largo'

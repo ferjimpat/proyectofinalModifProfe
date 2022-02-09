@@ -1,0 +1,8 @@
+App\Entity\Comentario:
+  properties:
+    puntos:
+      - NotBlank:
+          message: 'Debe indicar la puntuacion'
+    nombre:
+      - NotBlank:
+          message: 'Debe indicar un nombre'

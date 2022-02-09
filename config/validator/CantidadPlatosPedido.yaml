@@ -1,0 +1,7 @@
+App\Entity\CantidadPlatosPedido:
+  properties:
+    cantidad:
+      - NotBlank:
+          message: 'Debe inidicar un cantidad'
+
+
