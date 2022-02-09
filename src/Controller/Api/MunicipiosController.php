@@ -48,5 +48,15 @@ class MunicipiosController extends AbstractApiController
         $this->em->flush();
         return $municipio;
     }
+    /**
+     * @Rest\Get (path="/municipios/{id}")
+     * @Rest\View (serializerGroups={"add_municipio"}, serializerEnableMaxDepthChecks= true)
+     */
+
+    public function getMunicipios(Request $request){
+        $idProv = $request->get('id');
+        $municipios = $this->repMuni->findBy(['idProvincia'=> $idProv]);
+        return $municipios;
+    }
 
 }
